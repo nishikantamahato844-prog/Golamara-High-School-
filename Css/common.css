@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Carter+One&family=Concert+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+  /* Fonts */
+  --main-heading: 'Carter One',sans-serif;
+  --sub-heading:'Concert One',sans-serif;
+  --heading:'Anton',sans-serif;
+  --text:'Poppins',sans-serif;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #e4ffec;
+  width: 100vw;
+  height: 100vh;
+  font-family: var(--text);
+}
+.mainHeading{
+  text-align: center;
+  background: linear-gradient(to top, #9bffab, #03381e);
+  color: transparent;
+  background-clip: text;
+  font-family: var(--main-heading);
+  font-size: 1.8rem;
+}
+.intro{
+  text-align: center;
+  background: linear-gradient(to top, #9bffab, #00af1c);
+  background-clip: text;
+  color: transparent;
+  font-family: var(--heading);
+}
+.main-section{
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  gap: 60%;
+}
+.admin-button{
+  height: 1.9rem;
+  width: 1.9rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  filter: drop-shadow(0px 7px 13px rgba(0,0,0,0.5));
+}
+.admin-page{
+  
+}
+.heading-container{
+  display: flex;
+}
+.notice-heading-image{
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.notice-heading{
+  background: linear-gradient(to left, #00AD31, #01331C);
+  color: transparent;
+  background-clip: text;
+  font-family: var(--sub-heading);
+  font-size: 1.3rem;
+}
+.notice-headings{
+  background: linear-gradient(to left, #00AD31, #01331C);
+  color: transparent;
+  background-clip: text;
+  font-family: var(--sub-heading);
+  font-size: 1.6rem;
+}
+.footer-section{
+  position: fixed;
+  bottom: 0;
+  width : 100%;
+  background: linear-gradient(to left, #80ffc2, #18df74);
+}
+.nav-list{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  list-style: none;
+  height: 3.2rem;
+  align-items: center;
+  padding-top: 0.3rem;
+}
+.nav-link{
+  text-decoration: none;
+  color: #03381e;
+  font-family: var(--heading);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+}
+.nav-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00bf63;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
+.nav-img{
+  height: 1.7rem;
+  width: 1.7rem;
+}
+.nav-item{
+
+}
+.nav-text{
+  font-size: 0.9rem;
+}
+.nav-active{
+  background-color: #e4ffec;
+}
